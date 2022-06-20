@@ -1,0 +1,1 @@
+# Projeto de Landing page de sorveteria, referente ao Stage 3 do Explorer da Rocketseat
