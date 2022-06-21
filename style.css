@@ -46,21 +46,9 @@ main {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background: #8E9AAF;
   width: 25%;
   height: 100vh;
-}
-
-.container > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .container-items {
@@ -169,6 +157,10 @@ span {
   animation-duration: 1400ms;
 }
 
+main {
+  grid-template-areas: "A B"
+  "C D" "E F";
+}
 
 @keyframes topdown {
   0% {
